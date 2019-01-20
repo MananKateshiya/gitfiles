@@ -1,0 +1,11 @@
+git add <filename>
+git status
+git rm --cached <filename>
+git commit
+git commit -m 'Changed <filename>'
+# for ignore
+touch .gitignore
+touch log.txt
+git add .
+git checkout <branchname>
+git merge <branchname>
